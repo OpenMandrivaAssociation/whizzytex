@@ -14,6 +14,7 @@ BuildRequires: 	emacs-bin
 Requires: 	emacs-bin
 Requires: 	tetex-latex
 BuildArch: 	noarch
+BuildRoot: 	%{_tmppath}/%{name}-%{version}
 
 %description 
 WhizzyTeX provides a minor mode for Emacs or XEmacs, a (bash) shell-script
