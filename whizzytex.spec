@@ -57,3 +57,56 @@ rm -rf %{buildroot}
 %{_datadir}/texmf/tex/latex/%{name}
 %{_datadir}/emacs/site-lisp
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.3.1-5mdv2010.0
++ Revision: 434749
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.3.1-4mdv2009.0
++ Revision: 261982
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.3.1-3mdv2009.0
++ Revision: 255985
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 10 2007 Guillaume Rousse <guillomovitch@mandriva.org> 1.3.1-1mdv2008.1
++ Revision: 116908
+- update to new version 1.3.1
+- import whizzytex
+
+
+* Thu Aug 31 2006 Guillaume Rousse <guillomovitch@mandriva.org> 1.3.0-2mdv2007.0
+- Rebuild
+
+* Fri Jan 20 2006 Guillaume Rousse <guillomovitch@mandriva.org> 1.3.0-1mdk
+- New release 1.3.0
+- fix url
+
+* Wed Dec 28 2005 Guillaume Rousse <guillomovitch@mandriva.org> 1.2.3-2mdk
+-fix buildrequires 
+
+* Fri Jul 01 2005 Guillaume Rousse <guillomovitch@mandriva.org> 1.2.3-1mdk 
+- new release
+- fix initex issue
+- fix some perms in examples
+
+* Mon Apr 25 2005 Guillaume Rousse <guillomovitch@mandriva.org> 1.2.2-1mdk
+- New release 1.2.2
+- spec cleanup
+
+* Mon Nov 22 2004 Guillaume Rousse <guillomovitch@mandrake.org> 1.2.1-1mdk 
+- new version
+- rpmbuildupdate aware
+
+* Fri Jul 02 2004 Guillaume Rousse <guillomovitch@mandrake.org> 1.1.3-2mdk 
+- remove useless provide
+
+* Fri Apr 16 2004 Guillaume Rousse <guillomovitch@mandrake.org> 1.1.3-1mdk
+- first mdk release
