@@ -1,20 +1,17 @@
-%define name	whizzytex
-%define version 1.3.1
-%define release 6
 
-Name: 		%{name}
-Version: 	%{version}
-Release: 	%{release}
+Name: 		whizzytex
+Version: 	1.4.0
+Release: 	1
 License: 	LGPL
 Summary:	An Emacs minor mode for incremental viewing of LaTeX documents
 Group:		Publishing
 URL:		http://cristal.inria.fr/whizzytex
-Source:		http://cristal.inria.fr/whizzytex/%{name}-%{version}.tar.bz2
+Source:		http://cristal.inria.fr/whizzytex/%{name}-%{version}.tgz
 BuildRequires: 	emacs-bin
 Requires: 	emacs-bin
 Requires: 	tetex-latex
 BuildArch: 	noarch
-BuildRoot: 	%{_tmppath}/%{name}-%{version}
+
 
 %description 
 WhizzyTeX provides a minor mode for Emacs or XEmacs, a (bash) shell-script
