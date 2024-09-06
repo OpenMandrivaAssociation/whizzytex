@@ -1,6 +1,6 @@
 
 Name: 		whizzytex
-Version: 	1.4.0
+Version: 	1.5.0
 Release: 	1
 License: 	LGPL
 Summary:	An Emacs minor mode for incremental viewing of LaTeX documents
