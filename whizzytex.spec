@@ -5,7 +5,7 @@ Release: 	1
 License: 	LGPL
 Summary:	An Emacs minor mode for incremental viewing of LaTeX documents
 Group:		Publishing
-URL:		http://cristal.inria.fr/whizzytex
+URL:		https://cristal.inria.fr/whizzytex
 Source:		http://cristal.inria.fr/whizzytex/%{name}-%{version}.tgz
 BuildRequires: 	emacs-bin
 Requires: 	emacs-bin
